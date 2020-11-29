@@ -1,0 +1,7 @@
+ {% extends "base.html.twig" %}
+
+{% block body %}
+<img src="{{ asset('/images/imagedp.jpg')}}" alt ="Senegal Flag" class="h-32 mt-12 rounded shadow-md">
+<h1 class="mt-5 text-5xl font-semibold text-indigo-600">Hello From Senegal</h1>
+<p class="text-lg text-gray-800">It's currently {{'now'| date('H:i A')}}.</p>
+ {% endblock %}
